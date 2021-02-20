@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node ./intercept.js",
+    "test:service": "../../packages/wdio-cli/bin/wdio.js ./service/wdio.conf.js"
+  },
+  "dependencies": {
+    "webdriverio": "^7.0.7"
+  }
+}
